@@ -1,3 +1,4 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -166,4 +167,86 @@
     letter-spacing: 1.5px;
     text-align: center;
     display: block;
+}
+.audio-holder{
+    width: 540px;
+}
+.audio-detail{
+    flex: 1;
+}
+.control{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.control i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.audio-author{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.time{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: white;
+}
+.course-section-title{
+    font-weight: 600;
+    font-size: 70px;
+    color: #1A1A1A;
+    margin: 60px 0;
+}
+.course-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.card-big{
+    width: 540px;
+}
+.card-small{
+    width: 360px;
+}
+.img-container{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.img-card-1{
+    background-image: url('/img/card-1.png');
+}
+.btn-time{
+    background-color: white;
+    border-radius: 5px;
+    color: #111;
+    padding: 6px 12px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.btn-raiting{
+    width: 77px;
+    background-color: #111;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
