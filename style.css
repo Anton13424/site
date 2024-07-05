@@ -8,6 +8,9 @@
     max-width: 1080px;
     margin: 0 auto;
 }
+.card-about{
+    width: 540px;
+}
 /*HEADER*/
 .header{
     background-color: #1A1A1A;
@@ -94,6 +97,7 @@
 }
 .card-info-img{
     display: flex;
+    border-radius: 8px;
 }
 .info-title{
     font-size: 20px;
@@ -123,7 +127,7 @@
 }
 .about-desc{
     color: #d1d1d1;
-    max-width: 240px;
+    /* max-width: 240px; */
     font-size: 14px;
     line-height: 1.8;
 }
@@ -131,6 +135,8 @@
     background-color: #242424;
     display: flex;
     margin-top: 61px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 .audio-container{
     display: flex;
@@ -231,6 +237,7 @@
 }
 .img-card-1{
     background-image: url('./img/card-1.png');
+    border-radius: 8px;
 }
 .btn-time{
     background-color: white;
@@ -271,9 +278,18 @@
     line-height: 1.7;
     letter-spacing: 0.5px;
 }
-.img-card-2{background-image: url('./img/card-2.png');}
-.img-card-3{background-image: url('./img/card-3.png');}
-.img-card-4{background-image: url('./img/card-4.png');}
+.img-card-2{
+    background-image: url('./img/card-2.png');
+    border-radius: 8px;
+}
+.img-card-3{
+    background-image: url('./img/card-3.png');
+    border-radius: 8px;
+}
+.img-card-4{
+    background-image: url('./img/card-4.png');
+    border-radius: 8px;
+}
 .footer{
     background-color: #f5f6f8;
     padding: 60px 0;
