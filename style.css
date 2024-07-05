@@ -230,7 +230,7 @@
     padding-left: 20px;
 }
 .img-card-1{
-    background-image: url('/img/card-1.png');
+    background-image: url('./img/card-1.png');
 }
 .btn-time{
     background-color: white;
@@ -271,9 +271,9 @@
     line-height: 1.7;
     letter-spacing: 0.5px;
 }
-.img-card-2{background-image: url('/img/card-2.png');}
-.img-card-3{background-image: url('/img/card-3.png');}
-.img-card-4{background-image: url('/img/card-4.png');}
+.img-card-2{background-image: url('./img/card-2.png');}
+.img-card-3{background-image: url('./img/card-3.png');}
+.img-card-4{background-image: url('./img/card-4.png');}
 .footer{
     background-color: #f5f6f8;
     padding: 60px 0;
